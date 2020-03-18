@@ -1,0 +1,24 @@
+.sort{
+    background: #FFF;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+
+    .radio {
+        padding: 15px 0;
+    }
+    
+    button.btn.btn-primary {
+        width: 100%;
+        float: left;
+        height: 46px;
+        font-size: 14px;
+        border-radius: 8px;
+        background: #2aa22a;
+        color: #FFF;
+        cursor: pointer;
+    }
+
+}

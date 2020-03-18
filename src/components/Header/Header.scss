@@ -1,0 +1,46 @@
+.header {
+    background: #2a6496;
+    padding: 25px 15px;
+    color: #fff;
+    text-align: center;
+
+    .logo {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .navbar {
+        width: auto;
+        float: left;
+        font-size: 30px;
+        font-weight: 400;
+        cursor: pointer;    
+    }
+
+    .menuBar {
+        width: 320px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: #FFF;
+        color: #000;
+        padding: 10px;
+        z-index: 99;
+    }
+
+    span {
+        font-size: 25px;
+        color: #aaa;
+        width: auto;
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 19px;
+        top: 11px;
+    }
+}

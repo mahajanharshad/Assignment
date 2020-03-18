@@ -1,0 +1,35 @@
+nav.navbar.navbar-light {
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+
+    ul.nav.navbar-nav {
+        margin: 0;
+        padding: 0;
+
+        li.nav-item {
+            list-style-type: none;
+            width: 30%;
+            float: left;
+            min-width: 100px;
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+            border-right: 2px solid #FFF;
+            border-left: 2px solid #FFF;
+
+            a.nav-link {
+                display: block;
+                padding: 15px 12px;
+                text-decoration: none;
+                font-size: 17px;
+
+                span {
+                    color: #3c7db6;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+}

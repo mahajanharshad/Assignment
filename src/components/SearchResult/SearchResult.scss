@@ -1,0 +1,144 @@
+.details-section {
+    background: #eee;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0 30px;
+    position: relative;
+
+    section.details-container {
+        background: #fff;
+        margin-bottom: 5px;
+        width: 100%;
+        float: left;
+        padding: 15px;
+        box-sizing: border-box;
+
+        .title {
+            font-size: 16px;
+        }
+
+        .flight-details {
+            width: 100%;
+            float: left;
+            margin: 15px 0;
+            padding: 15px 0;
+        }
+
+        .flight-details__left-section, .flight-details__last-section, .flight-details__middle-section {
+            width: 33%;
+            float: left;
+            
+            span:first-child{
+                font-weight: 700;
+                width: 100%;
+                float: left;
+                font-size: 14px;
+                padding: 2px 5px;
+            }
+
+            span:last-child{
+                width: 100%;
+                float: left;
+                font-size: 12px;
+                padding: 2px 5px;
+            }
+        }
+
+        .flight-details__last-section {
+            span:first-child, span:last-child{
+               text-align: right;
+            }
+        }
+
+        .flight-details__middle-section{
+            position: relative;
+
+            span:first-child, span:last-child{
+               text-align: center;
+            }
+
+            span:first-child{
+                border-bottom: 1px solid #2aa22a;
+            }
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+                width: 30%;
+                float: left;
+                margin-right: 1%;
+            }
+
+            .priceSection {
+                background: #2a6496;
+                color: #FFF;
+                padding: 5px;
+                border-radius: 5px;
+                position: relative;
+            }
+
+            span.price {
+                width: 100%;
+                float: left;
+                font-size: 16px;
+            }
+
+            span.class-details {
+                font-size: 12px;
+            }
+
+            span.seats-availability {
+                background: #b3991c;
+                color: #333;
+                padding: 1px 5px;
+                border-radius: 4px;
+                font-size: 14px;
+                position: absolute;
+                top: -11px;
+                right: 8px;
+                z-index: 99;
+            }
+        }
+    }
+
+    .buttonContainer {
+        width: 300px;
+        display: inline-block;
+        margin: 0 auto;
+        float: none;
+        overflow: hidden;
+        position: absolute;
+        bottom: 10px;
+        z-index: 9999;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 0 3px 0 #333;
+    }
+
+    .buttonContainer div {
+        width: 49%;
+        float: left;
+        text-align: center;
+        background: #FFF;
+        border-radius: 4px;
+        padding: 7px 5px;
+        box-sizing: border-box;
+        font-size: 15px;
+        margin-right: 2px;
+
+        a{
+            text-decoration: none;
+            color: #2a6496;
+        }
+    }
+
+    .buttonContainer div:last-child {
+        float: right;
+    }
+}
